@@ -1,0 +1,1405 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {margin: 0px; padding: 0px; box-sizing:border-box; font-family: Poppins;}
+
+h1, h2, h3, h4, h5, h6,  p, a, sapn, form, strong, input, radio, select, checkbox, textfield, textarea, ul, li, ol {margin: 0px; padding: 0px;}
+
+a {text-decoration: none;}
+img {border: none;}
+a, img {border: none}
+
+
+
+
+/******************html 5 tag****************/
+header, nav, hgroup, section, article, aside, figure, figcaption, audio, video, footer {margin: 0px; padding: 0px; display: block; }
+/******************html 5 tag****************/
+
+/******************main****************/
+.wrap {width: 1171px; margin: 0 auto;}
+#main { width: 100%; float: left;}
+#navid { width: 100%; float: left;}
+#bannerid { width: 100%; float: left;}
+#clintid { width: 100%; float: left;}
+#awesomeid { width: 100%; float: left;}
+#smartid { width: 100%; float: left;}
+#featuresid { width: 100%; float: left;}
+#chooseid { width: 100%; float: left;}
+#priceid { width: 100%; float: left;}
+#testimonialid { width: 100%; float: left;}
+#faqid { width: 100%; float: left;}
+#downloadid { width: 100%; float: left;}
+#bottomid { width: 100%; float: left;}
+/******************main****************/
+
+
+
+/******************html start here****************/
+/******************nav start here****************/
+
+.hederbg{width: 100%; float: left; background:url("../images/back.png") bottom center no-repeat; background-size: cover}
+
+
+.header {width: 100%; float: left; }
+.header hgroup {width: 20%; float: left; padding: 4% 0;}
+.header nav {width: 40%; float: left; padding: 5% 0; margin: 0 0 0 20%;  }
+.header nav ul  {list-style: none; margin: 0px; padding: 0px;}
+.header nav ul li { float: left;}
+.header nav ul li a { font-family:Poppins; color:#222!important; display: block; padding: 0 10px;}
+.header aside {width: 15%; float: right; padding: 4% 0;}
+.header aside button { background: #2500f9; color: #fff; display: block; font-size: 16px; font-weight: bold; border: none; padding: 15px 25px; border-radius: 50px; cursor:pointer;}
+
+
+.banner {width: 100%; float: left;} 
+.banner article {width: 45%; float: left; padding:200px  0 ; }
+.banner article  h1 {font-size: 18px; color: #242f51;font-weight: 600; padding-bottom: 10px}
+.banner article  h1 span {font-size: 18px; color: #222;}
+.banner article  h2 {font-size: 60px; color: #242f51; line-height: 75px; font-weight: bold; }
+.banner article  p {font-size: 19px; color: #777; line-height: 28px; padding: 15px 0 0 0;  }
+.banner article ul {list-style: none; margin: 0px; padding: 0px;}
+.banner article ul li {float: left; margin: 40px 0 0 0;}
+.banner article ul li a {background: #2500f9; color: #fff; display: block; font-size: 16px; font-weight: bold; border: none; padding: 15px 25px; border-radius: 50px; cursor:pointer;}
+.banner article ul li a.watch { color: #2500f9; display: block; font-size: 16px;  padding: 15px 25px; background:none; font-weight: normal}
+
+.banner aside {width: 45%; float: right; }
+.banner aside img { float: right; }
+
+/******************nav end here****************/
+
+
+/******************clinte logo start here****************/
+.clint {width: 100%; float: left; padding: 115px 0;  }
+.clint header {width: 100%; float: left; text-align: center;}
+.clint header h1 {  color: #242f51; font-size: 16px; font-weight: normal; padding: 0 0 40px 0;}
+.clint header ul {  list-style: none; margin: 0px; padding: 0px;}
+.clint header ul li {  display:inline-block; margin:  0 20px;}
+.clint header ul li  a { display:inline-block; }
+/******************clinte logo end here****************/
+
+
+/******************app start here****************/
+.awesome {width: 100%; float: left; padding:  100px 0 140px 0;}
+.awesome article{width: 50%; float: left;}
+.awesome article img {width: 100%; float: left;}
+.awesome aside {width: 45%; float:  right;}
+.awesome aside header  {width: 100%; float: left;}
+.awesome aside header  h1 {font-size: 36px; color: #242f51; line-height: 46px; font-weight: bold;}
+.awesome aside header  p {font-size: 16px; color: #777; line-height: 28px; padding: 24px 0 70px 0;  }
+
+.awesome aside section   {width:100%; float:left; margin: 0 0 30px 0;}
+.awesome aside section figure  {width: 25%; float: left;   margin: 0px;}
+.awesome aside section figure img { padding: 15px 0 0 0;}
+.awesome aside section figcaption  {width: 60%; float: left;}
+.awesome aside section figcaption h1  { font-size: 20px; color: #f55767;}
+.awesome aside section figcaption h1.type  { font-size: 20px; color: #2563ff;}
+.awesome aside section figcaption h1.pen  { font-size: 20px; color: #40975f;}
+.awesome aside section figcaption p  { font-size: 16px; color: #777; line-height: 26px; padding:10px 0 0 0;}
+
+
+/******************app end here****************/
+
+
+
+/******************smart start here****************/
+.smart {width: 100%; float:left; padding:  0 0 150px 0; border-bottom: #f4f4f4 solid 1px;} 
+.smart header {width: 100%; float:left; padding-bottom: 100px;} 
+
+.smart header article {width: 50%; float:left;  border-right: #999 solid 1px;} 
+.smart header article h1  {font-size: 40px; color: #242f51; line-height: 50px; font-weight: bold; padding: 0 20% 0 0;} 
+ 
+ .smart aside {width: 40%; float:right;  }      
+ .smart aside  p {font-size: 16px; color: #777; line-height: 26px; padding: 36px 0 36px 0;  } 
+
+.smart section {width: 100%; float:left; padding: 0 0 100px 0; } 
+.smart section figure {width:33.3%; float:left; margin: 0px;} 
+.smart section figure h1 { } 
+.smart section figure h2 {font-size: 20px; color: #f55767;padding:  28px 0 10px 0;  } 
+.smart section figure h2.net {font-size: 20px; color: #2563ff;padding:  28px 0 10px 0;  } 
+.smart section figure h2.reward {font-size: 20px; color: #40975f;padding:  28px 0 10px 0;  } 
+.smart section figure p {font-size: 16px; color: #777; line-height: 26px; padding: 0 22% 0 0;   }
+
+.smart footer {width: 100%; float:left; } 
+
+.foot { width: 100%; float: left;}
+.foot article { width: 50%; float: left;}
+.foot article img { width: 100%; float: left; }
+
+.foot aside { width: 45%; float: right;}
+.foot aside h1 {font-size: 36px; color: #242f51; line-height: 46px; font-weight: bold; padding: 120px 20% 0 0;}
+.foot aside p {font-size: 16px; color: #777; line-height: 28px; padding: 24px 15% 50px 0;  }
+.foot aside a {background: #2500f9; color: #fff;  font-size: 16px; font-weight: bold; border: none; padding: 15px 25px; border-radius: 50px;   }
+
+/******************smart end here****************/
+
+
+
+/******************choose start here****************/
+.choose {width: 100%; float: left; padding: 150px 0;}
+.choose header  {width: 100%; float: left; text-align: center}
+.choose header  h1 {font-size: 36px; color: #242f51; line-height: 46px; font-weight: bold; padding: 0 30%; ;}
+.choose header p {font-size: 16px; color: #777; line-height: 26px; padding:  35px 25%;   }
+
+.choose section  {width: 100%; float: left; }
+.choose section article {width: 33.3%; float: left; text-align: center; padding: 45px 0}
+
+.choose section article h1 { }
+.choose section article h2 {font-size: 20px; color: #273043;padding:  28px 0 10px 0;  }
+.choose section article p {font-size: 16px; color: #777; line-height: 26px; padding: 0 15%;   }
+/******************choose end here****************/
+
+
+
+/******************features start here****************/
+
+.features {width: 100%; float: left; padding: 0 0 150px 0;}
+.features article {width: 60%; float: left;}
+.features article  header {width: 100%; float: left; }
+.features article  header h1 {font-size: 36px; color: #242f51; line-height: 46px; font-weight: bold;padding:  0 45% 0 0; }
+.features article  header p{font-size: 16px; color: #777; line-height: 28px; padding: 24px 35% 30px 0;  }
+.features article  section {width: 100%; float: left; }
+.features article  section figure {width: 50%; float: left; padding: 40px 0; }
+.features article  section figure  h1 { }
+.features article  section figure  h2 {font-size: 20px; color: #273043; padding:  28px 0 10px 0;  }
+.features article  section figure  p {font-size: 16px; color: #777; line-height: 26px; padding: 0 15% 0 0;   }
+
+.features aside {width: 40%; float: left;}
+.features aside h1 { width: 100%;}
+.features aside h1 img { transform:translateX(112px)}
+
+
+/******************features end here****************/
+
+
+
+/******************price start here****************/
+.price {width:100%; float: left; }
+.price header {width:100%; float: left; text-align: center;}
+.price header h1 {font-size: 36px; color: #242f51; line-height: 46px; font-weight: bold;padding:  0 25% ;}
+.price header p {font-size: 16px; color: #777; line-height: 26px; padding:  35px 23%;}
+ 
+.price article {width:100%; float: left; justify-content: center; display: flex;}
+.price article aside {width:auto; float: left; text-align: center;border-radius: 50px; border: #999 solid 1px; padding: 3px;}
+.price article aside ul  { list-style: none; margin: 0px; padding: 0px;}
+.price article aside ul li  { display: inline-block}
+.price article aside ul li a  { color: #999; background: none;  padding: 20px 30px;display: inline-block; border-radius: 50px;    }
+.price article aside ul li a:hover  { color: #fff; background: #2500f9;    }
+.price article aside ul li a.active  { color: #fff; background: #2500f9;    }
+
+.price section {width:100%; float: left; }
+
+.checkprice {width: 100%; float: left; display: block; padding:  50px 0 150px 0; border-bottom: #f2f2f2 solid 1px;}
+.checkprice header {width: 100%; float: left; display: block; padding:  50px 0 0 0; display:flex ; justify-content:center}
+
+.checkprice header article {width: 30%; float: left; text-align: center; box-shadow:0 0 40px 0 #f2f2f2; margin: 0 5%;}
+.checkprice header article figure {width: 100%; float: left; background: #f5f8fa; padding: 40px 0}
+.checkprice header article figure h1 {  font-size: 18px; color: #999ca5; font-weight: normal;}
+.checkprice header article figure h1 span {  font-size: 60px; color: #242f51; font-weight: bold;}
+.checkprice header article figure h2 {  font-size: 20px; color: #242f51; font-weight: bold;}
+.checkprice header article figure p {  font-size:16x; color:#999; font-weight:normal;}
+
+
+.checkprice article figcaption {width: 100%; float: left; padding:30px 0}
+.checkprice article figcaption ul  {list-style:none; margin: 0px; padding: 0px;}
+.checkprice article figcaption ul  li { float: none; color: #999; font-size:17px; margin: 15px 0 ;}
+.checkprice article figcaption  button  {background: #2500f9; color: #fff;  font-size: 16px; font-weight: bold; border: none; padding: 15px 25px; border-radius: 50px; margin: 10px 0  }
+.checkprice article figcaption  a   { color: #2500f9;  font-size: 16px; font-weight: normal; border: none; padding: 15px 25px; border-radius: 50px; margin: 10px 0 ; display: block;}
+
+.checkbordr { border:#f2f2f2 solid 4px;box-shadow:none;}
+/******************price end here****************/
+
+
+
+/******************testimonial start here****************/
+
+.testimonial {width: 100%; float:left; padding: 150px 0;}
+.testimonial article {width: 50%; float:left;}
+.leftside {width: 50%; float:left;}
+.leftside img { float:right; transform: translateX(-100px)}
+.testimonial aside {width: 45%; float:right;}
+.test {width: 100%; float:left;}
+.test header {width: 100%; float:left;}
+.test header h1 {font-size: 36px; color: #242f51; line-height: 46px; font-weight: bold;padding:  0 0 ;}
+.test header p {font-size: 16px; color: #777; line-height: 26px; padding:  35px 0;}
+.test header img {}
+.test header h2 {font-size: 20px; color: #242f51; line-height: 46px; font-weight: bold; padding:  0 0 ;}
+.test header h3 {font-size: 16px; color: #777; line-height: 26px; padding:  10px 0; font-weight: normal;}
+
+.test section {width: 100%; float:left; padding: 50px 0 0 0}
+.test section article {width: 50%; float:left;}
+.test section article  figure{width: 40%; float:left;}
+.test section article  figure img {}
+
+.test section article  figcaption {width: 60%; float:left;}
+.test section article  figcaption h1 {font-size: 18px; color: #242f51; line-height: 46px; font-weight: bold;padding:  0 0 ;}
+.test section article  figcaption p {font-size: 18px; color: #777;  padding:  0 0;}
+
+.test section aside {width: 30%; float:right;}
+.test section aside ul  {list-style: none; margin: 0px; padding: 0px;}
+.test section aside ul li {float: left; margin: 0 10px;color:#f4f4f4;}
+.test section aside ul li a { width: 50px; height: 50px; display: block; background: url("../images/btnright.png") center center no-repeat;}
+.test section aside ul li a:hover { width: 50px; height: 50px; display: block; background: url( "../images/btnhover2.png") center center no-repeat;}
+
+.test section aside ul li a.left { width: 50px; height: 50px; display: block; background:url("../images/btnleft.png") center center no-repeat;}
+.test section aside ul li a.left:hover { width: 50px; height: 50px; display: block; background: url( "../images/btnhover1.png") center center no-repeat;}
+
+
+/******************testimonial end here****************/
+
+
+
+/******************faq start here****************/
+.faq {width: 100%; float: left; padding: 0 0 150px 0;}
+.faq header {width: 100%; float: left; text-align: center;}
+.faq header h1 {font-size: 36px; color: #242f51; line-height: 46px; font-weight: bold;padding:  0 25% ;}
+.faq header p {font-size: 16px; color: #777; line-height: 26px; padding:  35px 23%;}
+
+
+.faq section {width: 100%; float: left; display: flex; justify-content: center; flex-direction: column; align-items: center;}
+.faq section article {width: 70%; float: left; background: #f5f7fa; padding: 10px 0 ; margin: 10px 0;}
+.faq section article figure {width: 90%; float: left; background: #f5f7fa;}
+.faq section article figure h1 {font-size: 20px; color: #242f51; line-height: 46px; font-weight: bold;padding:  0 0 0 40px ;}
+.faq section article figcaption {width: 10%; float: left; display: flex; justify-content: center; align-items: center;height: 50px}
+.faq section article figcaption a {width: 10%; float: left; width: 20px; height: 20px; background: url("../images/plus.png") center center no-repeat;}
+
+
+/******************faq end here****************/
+
+
+/******************download start here****************/
+.download {width: 100%; float: left; padding-top: 150px; border-top: #f2f2f2 solid 1px;} 
+
+.download article {width:55%; float: left; padding: 0 0 150px 0;}
+.download article h1 {font-size: 48px; color: #242f51; line-height: 46px; font-weight: bold; padding:  0 0 ;}
+.download article p {font-size: 16px; color: #777; line-height: 26px; padding:  35px 0 37px 0;}
+.download article ul {list-style: none;}
+.download article ul li {float: left; margin-right: 10px;}
+.download article ul li a {display: block;}
+
+.download aside {width: 45%; float: left;}
+/******************download end here****************/
+
+
+/******************footer start here****************/
+.bottom {width: 100%; float: left; background: #09142e; padding: 150px 0 ; }
+.bottom hgroup{width: 100%; float: left; text-align: center; }
+.bottom nav {width: 100%; float: left; text-align: center; }
+.bottom nav ul {list-style: none;}
+.bottom nav ul li {display: inline-block; margin: 50px 0;}
+.bottom nav ul li a {color:#fff!important; display: block; padding: 0 10px; display: inline-block; font-size: 16px; } 
+
+.bottom section {width: 100%; float: left; text-align: center; }
+.bottom section ul {list-style: none; margin: 0px; padding: 0px;}
+.bottom section ul li { display:inline-block; margin: 0 10px ;}
+.bottom section ul li a {width: 27px; height: 27px;display:inline-block;; background: url("../images/facebook.png") center center no-repeat;}
+.bottom section ul li a.twit {width: 27px; height: 27px;display:block; background: url( "../images/twitter.png") center center no-repeat;}
+.bottom section ul li a.hash {width: 27px; height: 27px;display:block; background: url("../images/hash.png") center center no-repeat;}
+.bottom section ul li a.insta {width: 27px; height: 27px;display:block; background: url( "../images/insta.png") center center no-repeat;}
+
+.bottom footer {width: 100%; float: left; text-align: center; }
+.bottom footer h1 {color: #3c5694; font-size: 14px; text-align: center; font-weight: normal; padding-top: 80px; }
+
+/******************footer end here****************/
+/******************media query  star here****************/
+@media only screen and (min-width:320px) and (max-width:480px)
+	
+{
+	.wrap {width: 90%; margin: 0 auto;}	
+	
+/******************nav start here****************/
+
+.hederbg{width: 100%; float: left; background:url("../images/back.png") bottom center no-repeat; background-size: cover}
+.header {width: 100%; float: left; text-align: center;}
+.header hgroup {width: 100%; float: left; padding: 80px 0 40px 0;}
+.header nav {width: 100%; float: left; padding: 5% 0; margin: 0 0 0 0; text-align: center;}
+.header nav ul  {list-style: none; margin: 0px; padding: 0px;}
+.header nav ul li { float: none; display: inline-block}
+.header nav ul li a { font-family:Poppins; color:#222!important; display: inline-block; padding: 10px 10px;}
+.header aside {width: 100%; float: right; padding: 4% 0; text-align: center;}
+.header aside button { background: #2500f9; color: #fff; display: inline-block; font-size: 16px; font-weight: bold; border: none; padding: 15px 25px; border-radius: 50px; cursor:pointer; text-align: center;}
+
+
+.banner {width: 100%; float: left;} 
+.banner article {width: 100%; float: left; padding:100px  0 ; text-align: center; }
+.banner article  h1 {font-size: 18px; color: #242f51;font-weight: 600; padding-bottom: 10px}
+.banner article  h1 span {font-size: 15px; color: #222;}
+.banner article  h2 {font-size: 40px; color: #242f51; line-height: 55px; font-weight: bold; }
+.banner article  p {font-size: 19px; color: #777; line-height: 28px; padding: 15px 0 0 0;  }
+.banner article ul {list-style: none; margin: 0px; padding: 0px; width: 80%; display: flex; justify-content: center; flex-direction: column;}
+.banner article ul li {float: left; margin: 40px 0 0 0;}
+.banner article ul li a{width:100%;background: #2500f9; color: #fff; display: block; font-size: 16px; font-weight: bold; border: none; padding: 15px 25px; border-radius: 50px; cursor:pointer;}
+.banner article ul li a.watch {width:100%; color: #2500f9; display: block; font-size: 16px;  padding: 15px 25px; background:none; font-weight: normal}
+
+.banner aside {width: 100%; float: right; padding-bottom: 100px; }
+.banner aside img { width: 100%; }
+
+/******************nav end here****************/
+	
+/******************clinte logo start here****************/
+
+.clint header ul li {  display:inline-block; margin:  20px 20px;}
+
+/******************clinte logo end here****************/
+	
+/******************app start here****************/
+.awesome {width: 100%; float: left; padding:  0 0 140px 0;}
+.awesome article{width:100%; float: left;}
+.awesome article img {width: 100%; float: left;}
+.awesome aside {width: 100%; float:  right;}
+.awesome aside header  {width: 100%; float: left; text-align: center;}
+.awesome aside header  h1 {font-size: 36px; color: #242f51; line-height: 46px; font-weight: bold;}
+.awesome aside header  p {font-size: 16px; color: #777; line-height: 28px; padding: 24px 0 70px 0;  }
+
+.awesome aside section   {width:100%; float:left; margin: 0 0 30px 0;}
+.awesome aside section figure  {width: 100%; float: left;   margin: 0px; text-align: center;}
+.awesome aside section figure img { padding: 15px 0 0 0;}
+.awesome aside section figcaption  {width: 100%; float: left; text-align: center;}
+.awesome aside section figcaption h1  { font-size: 20px; color: #f55767;}
+.awesome aside section figcaption h1.type  { font-size: 20px; color: #2563ff;}
+.awesome aside section figcaption h1.pen  { font-size: 20px; color: #40975f;}
+.awesome aside section figcaption p  { font-size: 16px; color: #777; line-height: 26px; padding:10px 0 0 0;}
+
+
+/******************app end here****************/	
+	
+/******************smart start here****************/
+.smart {width: 100%; float:left; padding:  0 0 150px 0; border-bottom: #f4f4f4 solid 1px;} 
+.smart header {width: 100%; float:left; } 
+
+.smart header article {width: 100%; float:left; border: none; text-align: center;} 
+.smart header article h1  {font-size: 40px; color: #242f51; line-height: 50px; font-weight: bold; padding: 0 0 0 0;} 
+ 
+.smart aside {width: 100%; float:right; text-align: center;}      
+ 
+
+.smart section {width: 100%; float:left; padding: 0 0 0 0; } 
+.smart section figure {width:100%; float:left; margin: 0px; text-align: center; padding-bottom: 50px} 
+.smart section figure h1 { } 
+.smart section figure h2 {font-size: 20px; color: #f55767;padding:  28px 0 10px 0;  } 
+.smart section figure h2.net {font-size: 20px; color: #2563ff;padding:  28px 0 10px 0;  } 
+.smart section figure h2.reward {font-size: 20px; color: #40975f;padding:  28px 0 10px 0;  } 
+.smart section figure p {font-size: 16px; color: #777; line-height: 26px; padding: 0 0 0 0;   }
+
+.smart footer {width: 100%; float:left; } 
+
+.foot { width: 100%; float: left;}
+.foot article { width: 100%; float: left; text-align: center;}
+.foot article img { width: 100%; float: left; }
+
+.foot aside { width: 100%; float: right;text-align: center;}
+.foot aside h1 {font-size: 36px; color: #242f51; line-height: 46px; font-weight: bold; padding: 120px 0 0 0;}
+.foot aside p {font-size: 16px; color: #777; line-height: 28px; padding: 24px 0 50px 0;  }
+.foot aside a {background: #2500f9; color: #fff;  font-size: 16px; font-weight: bold; border: none; padding: 15px 25px; border-radius: 50px;   }
+
+/******************smart end here****************/	
+/******************choose start here****************/
+.choose {width: 100%; float: left; padding: 100px 0;}
+.choose header  h1 {font-size: 36px; color: #242f51; line-height: 46px; font-weight: bold; padding: 0 0; ;}
+.choose header p {font-size: 16px; color: #777; line-height: 26px; padding:  35px 0;   }
+.choose section article {width: 100%; float: left; text-align: center; padding: 45px 0}
+.choose section article p {font-size: 16px; color: #777; line-height: 26px; padding: 0 0;   }
+/******************choose end here****************/
+	
+/******************features start here****************/
+
+.features {width: 100%; float: left; padding: 0 0 150px 0;}
+
+.features article {width: 100%; float: left;}
+.features article  header {width: 100%; float: left; text-align: center}
+.features article  header h1 {font-size: 36px; color: #242f51; line-height: 46px; font-weight: bold;padding:  0 0 0 0; }
+.features article  header p{font-size: 16px; color: #777; line-height: 28px; padding: 24px 0 30px 0;  }
+.features article  section {width: 100%; float: left; }
+.features article  section figure {width: 100%; float: left; padding: 40px 0; text-align: center;}
+.features article  section figure  h1 { }
+.features article  section figure  h2 {font-size: 20px; color: #273043; padding:  28px 0 10px 0;  }
+.features article  section figure  p {font-size: 16px; color: #777; line-height: 26px; padding: 0 0 0 0;   }
+
+.features aside {width: 100%; float: left;}
+.features aside h1 img { transform:none; width: 100%; height: auto;}
+
+
+/******************features end here****************/
+/******************price start here****************/
+.price {width:100%; float: left; }
+.price header {width:100%; float: left; text-align: center;}
+.price header h1 {font-size: 36px; color: #242f51; line-height: 46px; font-weight: bold;padding:  0 0 ;}
+.price header p {font-size: 16px; color: #777; line-height: 26px; padding:  35px 0;}
+ 
+.price article {width:100%; float: left; justify-content: center; display: flex;}
+.price article aside {width:auto; float: left; text-align: center;border-radius: 50px; border: #999 solid 1px; padding: 3px;}
+.price article aside ul  { list-style: none; margin: 0px; padding: 0px;}
+.price article aside ul li  { display: inline-block}
+.price article aside ul li a  { color: #999; background: none;  padding: 20px 30px;display: inline-block; border-radius: 50px;    }
+.price article aside ul li a:hover  { color: #fff; background: #2500f9;    }
+.price article aside ul li a.active  { color: #fff; background: #2500f9;    }
+
+.price section {width:100%; float: left; }
+
+.checkprice {width: 100%; float: left; display: block; padding:  50px 0 100px 0; border-bottom: #f2f2f2 solid 1px;}
+.checkprice header {width: 100%; float: left; display: block; padding:  50px 0 0 0; }
+
+.checkprice header article {width: 100%; float: left; text-align: center; box-shadow:0 0 40px 0 #f2f2f2; margin: 0 0 50px 0;}
+.checkprice header article figure {width: 100%; float: left; background: #f5f8fa; padding: 40px 0 }
+.checkprice header article figure h1 {  font-size: 18px; color: #999ca5; font-weight: normal;}
+.checkprice header article figure h1 span {  font-size: 60px; color: #242f51; font-weight: bold;}
+.checkprice header article figure h2 {  font-size: 20px; color: #242f51; font-weight: bold;}
+.checkprice header article figure p {  font-size:16x; color:#999; font-weight:normal;}
+
+
+.checkprice article figcaption {width: 100%; float: left; padding:30px 0}
+.checkprice article figcaption ul  {list-style:none; margin: 0px; padding: 0px;}
+.checkprice article figcaption ul  li { float: none; color: #999; font-size:17px; margin: 15px 0 ;}
+.checkprice article figcaption  button  {background: #2500f9; color: #fff;  font-size: 16px; font-weight: bold; border: none; padding: 15px 25px; border-radius: 50px; margin: 10px 0  }
+.checkprice article figcaption  a   { color: #2500f9;  font-size: 16px; font-weight: normal; border: none; padding: 15px 25px; border-radius: 50px; margin: 10px 0 ; display: block;}
+
+.checkbordr { border:#f2f2f2 solid 0px;box-shadow:none;}
+/******************price end here****************/
+	
+/******************testimonial start here****************/
+
+.testimonial {width: 100%; float:left; padding: 100px 0 0 0;}
+.testimonial article {width: 100%; float:left;}
+.leftside {width: 50%; float:left;}
+.leftside img { float:right; transform:none; width: 100%; }
+.testimonial aside {width: 100%; float:right;}
+.test {width: 100%; float:left;}
+.test header {width: 100%; float:left; margin-top: 50px;}
+.test header h1 {font-size: 36px; color: #242f51; line-height: 46px; font-weight: bold;padding:  0 0 ;}
+.test header p {font-size: 16px; color: #777; line-height: 26px; padding:  35px 0;}
+.test header img {}
+.test header h2 {font-size: 20px; color: #242f51; line-height: 46px; font-weight: bold; padding:  0 0 ;}
+.test header h3 {font-size: 16px; color: #777; line-height: 26px; padding:  10px 0; font-weight: normal;}
+
+.test section {width: 100%; float:left; padding: 50px 0 0 0}
+.test section article {width: 100%; float:left;}
+.test section article  figure{width: 40%; float:left;}
+.test section article  figure img {}
+
+.test section article  figcaption {width: 60%; float:left;}
+.test section article  figcaption h1 {font-size: 18px; color: #242f51; line-height: 46px; font-weight: bold;padding:  0 0 ;}
+.test section article  figcaption p {font-size: 18px; color: #777;  padding:  0 0;}
+
+.test section aside {width: 100%; float:right; margin-top: 30px;}
+.test section aside ul  {list-style: none; margin: 0px; padding: 0px;}
+.test section aside ul li {float: left; margin: 0 10px;color:#f4f4f4;}
+.test section aside ul li a { width: 50px; height: 50px; display: block; background: url("../images/btnright.png") center center no-repeat;}
+.test section aside ul li a:hover { width: 50px; height: 50px; display: block; background: url( "../images/btnhover2.png") center center no-repeat;}
+
+.test section aside ul li a.left { width: 50px; height: 50px; display: block; background:url("../images/btnleft.png") center center no-repeat;}
+.test section aside ul li a.left:hover { width: 50px; height: 50px; display: block; background: url( "../images/btnhover1.png") center center no-repeat;}
+
+
+/******************testimonial end here****************/
+	
+/******************faq start here****************/
+.faq {width: 100%; float: left; padding: 100px 0 100px 0;}
+.faq header {width: 100%; float: left; text-align: center;}
+.faq header h1 {font-size: 36px; color: #242f51; line-height: 46px; font-weight: bold;padding:  0 0 ;}
+.faq header p {font-size: 16px; color: #777; line-height: 26px; padding:  35px 0;}
+
+
+.faq section {width: 100%; float: left; display: flex; justify-content: center; flex-direction: column; align-items: center;}
+.faq section article {width: 100%; float: left; background: #f5f7fa; padding: 10px 0 ; margin: 10px 0; display: flex ; align-items: center; }
+.faq section article figure {width: 80%; float: left; background: #f5f7fa;}
+.faq section article figure h1 {font-size: 13px; color: #242f51; line-height: 16px; font-weight: bold;padding:  0 0 0 20px ;}
+.faq section article figcaption {width: 20%; float: left; display: flex; justify-content: center; align-items: center;height: 50px}
+.faq section article figcaption a {width: 10%; float: left; width: 20px; height: 20px; background: url("../images/plus.png") center center no-repeat;}
+
+
+/******************faq end here****************/
+	
+/******************download start here****************/
+.download {width: 100%; float: left; padding-top: 100px; border-top: #f2f2f2 solid 1px;} 
+
+.download article {width:100%; float: left; padding: 0 0 100px 0; text-align: center;}
+.download article h1 {font-size: 48px; color: #242f51; line-height: 46px; font-weight: bold; padding:  0 0 ;}
+.download article p {font-size: 16px; color: #777; line-height: 26px; padding:  35px 0 37px 0;}
+.download article ul {list-style: none;}
+.download article ul li {float: none; margin-right:none;display: inline-block; }
+.download article ul li a {display: inline-block;}
+
+.download aside {width: 100%; float: left;}
+.download aside img {width: 100%; height: auto;}
+/******************download end here****************/
+	
+/******************footer start here****************/
+.bottom {width: 100%; float: left; background: #09142e; padding: 100px 0 ; }
+.bottom hgroup{width: 100%; float: left; text-align: center; }
+.bottom nav {width: 100%; float: left; text-align: center; }
+.bottom nav ul {list-style: none;}
+.bottom nav ul li {display: inline-block; margin: 50px 0;}
+.bottom nav ul li a {color:#fff!important; display: block; padding: 0 10px; display: inline-block; font-size: 16px; } 
+
+.bottom section {width: 100%; float: left; text-align: center; }
+.bottom section ul {list-style: none; margin: 0px; padding: 0px;}
+.bottom section ul li { display:inline-block; margin: 0 10px ;}
+.bottom section ul li a {width: 27px; height: 27px;display:inline-block;; background: url("../images/facebook.png") center center no-repeat;}
+.bottom section ul li a.twit {width: 27px; height: 27px;display:block; background: url( "../images/twitter.png") center center no-repeat;}
+.bottom section ul li a.hash {width: 27px; height: 27px;display:block; background: url("../images/hash.png") center center no-repeat;}
+.bottom section ul li a.insta {width: 27px; height: 27px;display:block; background: url( "../images/insta.png") center center no-repeat;}
+
+.bottom footer {width: 100%; float: left; text-align: center; }
+.bottom footer h1 {color: #3c5694; font-size: 14px; text-align: center; font-weight: normal; padding-top: 80px; }
+
+/******************footer end here****************/
+
+}
+
+@media only screen and (min-width:481px) and (max-width:767px)
+	
+{
+	.wrap {width: 90%; margin: 0 auto;}	
+	
+/******************nav start here****************/
+
+.hederbg{width: 100%; float: left; background:url("../images/back.png") bottom center no-repeat; background-size: cover}
+.header {width: 100%; float: left; text-align: center;}
+.header hgroup {width: 100%; float: left; padding: 80px 0 40px 0;}
+.header nav {width: 100%; float: left; padding: 5% 0; margin: 0 0 0 0; text-align: center;}
+.header nav ul  {list-style: none; margin: 0px; padding: 0px;}
+.header nav ul li { float: none; display: inline-block}
+.header nav ul li a { font-family:Poppins; color:#222!important; display: inline-block; padding: 10px 10px;}
+.header aside {width: 100%; float: right; padding: 4% 0; text-align: center;}
+.header aside button { background: #2500f9; color: #fff; display: inline-block; font-size: 16px; font-weight: bold; border: none; padding: 15px 25px; border-radius: 50px; cursor:pointer; text-align: center;}
+
+
+.banner {width: 100%; float: left;} 
+.banner article {width: 100%; float: left; padding:100px  0 ; text-align: center; }
+.banner article  h1 {font-size: 18px; color: #242f51;font-weight: 600; padding-bottom: 10px}
+.banner article  h1 span {font-size: 15px; color: #222;}
+.banner article  h2 {font-size: 40px; color: #242f51; line-height: 55px; font-weight: bold; }
+.banner article  p {font-size: 19px; color: #777; line-height: 28px; padding: 15px 0 0 0;  }
+.banner article ul {list-style: none; margin: 0px; padding: 0px;  display: flex; justify-content: center; }
+.banner article ul li {float: left; margin: 40px 0 0 0;}
+.banner article ul li a{background: #2500f9; color: #fff; display: block; font-size: 16px; font-weight: bold; border: none; padding: 15px 25px; border-radius: 50px; cursor:pointer;}
+.banner article ul li a.watch { color: #2500f9; display: block; font-size: 16px;  padding: 15px 25px; background:none; font-weight: normal}
+
+.banner aside {width: 100%; float: right; padding-bottom: 100px; }
+.banner aside img { width: 100%; }
+
+/******************nav end here****************/
+	
+/******************clinte logo start here****************/
+
+.clint header ul li {  display:inline-block; margin:  30px 30px;}
+
+/******************clinte logo end here****************/
+/******************app start here****************/
+.awesome {width: 100%; float: left; padding:  0 0 140px 0;}
+.awesome article{width:100%; float: left;}
+.awesome article img {width: 100%; float: left;}
+.awesome aside {width: 100%; float:  right;}
+.awesome aside header  {width: 100%; float: left; text-align: center;}
+.awesome aside header  h1 {font-size: 36px; color: #242f51; line-height: 46px; font-weight: bold;}
+.awesome aside header  p {font-size: 16px; color: #777; line-height: 28px; padding: 24px 0 70px 0;  }
+
+.awesome aside section   {width:100%; float:left; margin: 0 0 30px 0;}
+.awesome aside section figure  {width: 100%; float: left;   margin: 0px; text-align: center;}
+.awesome aside section figure img { padding: 15px 0 0 0;}
+.awesome aside section figcaption  {width: 100%; float: left; text-align: center;}
+.awesome aside section figcaption h1  { font-size: 20px; color: #f55767;}
+.awesome aside section figcaption h1.type  { font-size: 20px; color: #2563ff;}
+.awesome aside section figcaption h1.pen  { font-size: 20px; color: #40975f;}
+.awesome aside section figcaption p  { font-size: 16px; color: #777; line-height: 26px; padding:10px 0 0 0;}
+
+
+/******************app end here****************/
+	
+	/******************smart start here****************/
+.smart {width: 100%; float:left; padding:  0 0 150px 0; border-bottom: #f4f4f4 solid 1px;} 
+.smart header {width: 100%; float:left; } 
+
+.smart header article {width: 100%; float:left; border: none; text-align: center;} 
+.smart header article h1  {font-size: 40px; color: #242f51; line-height: 50px; font-weight: bold; padding: 0 0 0 0;} 
+ 
+.smart aside {width: 100%; float:right; text-align: center;}      
+ 
+
+.smart section {width: 100%; float:left; padding: 0 0 0 0; } 
+.smart section figure {width:100%; float:left; margin: 0px; text-align: center; padding-bottom: 50px} 
+.smart section figure h1 { } 
+.smart section figure h2 {font-size: 20px; color: #f55767;padding:  28px 0 10px 0;  } 
+.smart section figure h2.net {font-size: 20px; color: #2563ff;padding:  28px 0 10px 0;  } 
+.smart section figure h2.reward {font-size: 20px; color: #40975f;padding:  28px 0 10px 0;  } 
+.smart section figure p {font-size: 16px; color: #777; line-height: 26px; padding: 0 0 0 0;   }
+
+.smart footer {width: 100%; float:left; } 
+
+.foot { width: 100%; float: left;}
+.foot article { width: 100%; float: left; text-align: center;}
+.foot article img { width: 100%; float: left; }
+
+.foot aside { width: 100%; float: right;text-align: center;}
+.foot aside h1 {font-size: 36px; color: #242f51; line-height: 46px; font-weight: bold; padding: 120px 0 0 0;}
+.foot aside p {font-size: 16px; color: #777; line-height: 28px; padding: 24px 0 50px 0;  }
+.foot aside a {background: #2500f9; color: #fff;  font-size: 16px; font-weight: bold; border: none; padding: 15px 25px; border-radius: 50px;   }
+
+/******************smart end here****************/	
+	/******************choose start here****************/
+.choose {width: 100%; float: left; padding: 100px 0;}
+.choose header  h1 {font-size: 36px; color: #242f51; line-height: 46px; font-weight: bold; padding: 0 0; ;}
+.choose header p {font-size: 16px; color: #777; line-height: 26px; padding:  35px 0;   }
+.choose section article {width: 100%; float: left; text-align: center; padding: 45px 0}
+.choose section article p {font-size: 16px; color: #777; line-height: 26px; padding: 0 0;   }
+/******************choose end here****************/
+	
+/******************features start here****************/
+
+.features {width: 100%; float: left; padding: 0 0 150px 0;}
+
+.features article {width: 100%; float: left;}
+.features article  header {width: 100%; float: left; text-align: center}
+.features article  header h1 {font-size: 36px; color: #242f51; line-height: 46px; font-weight: bold;padding:  0 0 0 0; }
+.features article  header p{font-size: 16px; color: #777; line-height: 28px; padding: 24px 0 30px 0;  }
+.features article  section {width: 100%; float: left; }
+.features article  section figure {width: 100%; float: left; padding: 40px 0; text-align: center;}
+.features article  section figure  h1 { }
+.features article  section figure  h2 {font-size: 20px; color: #273043; padding:  28px 0 10px 0;  }
+.features article  section figure  p {font-size: 16px; color: #777; line-height: 26px; padding: 0 0 0 0;   }
+
+.features aside {width: 100%; float: left;}
+.features aside h1 img { transform:none; width: 100%; height: auto;}
+
+
+/******************features end here****************/
+/******************price start here****************/
+.price {width:100%; float: left; }
+.price header {width:100%; float: left; text-align: center;}
+.price header h1 {font-size: 36px; color: #242f51; line-height: 46px; font-weight: bold;padding:  0 0 ;}
+.price header p {font-size: 16px; color: #777; line-height: 26px; padding:  35px 0;}
+ 
+.price article {width:100%; float: left; justify-content: center; display: flex;}
+.price article aside {width:auto; float: left; text-align: center;border-radius: 50px; border: #999 solid 1px; padding: 3px;}
+.price article aside ul  { list-style: none; margin: 0px; padding: 0px;}
+.price article aside ul li  { display: inline-block}
+.price article aside ul li a  { color: #999; background: none;  padding: 20px 30px;display: inline-block; border-radius: 50px;    }
+.price article aside ul li a:hover  { color: #fff; background: #2500f9;    }
+.price article aside ul li a.active  { color: #fff; background: #2500f9;    }
+
+.price section {width:100%; float: left; }
+
+.checkprice {width: 100%; float: left; display: block; padding:  50px 0 100px 0; border-bottom: #f2f2f2 solid 1px;}
+.checkprice header {width: 100%; float: left; display: block; padding:  50px 0 0 0; }
+
+.checkprice header article {width: 100%; float: left; text-align: center; box-shadow:0 0 40px 0 #f2f2f2; margin: 0 0 50px 0;}
+.checkprice header article figure {width: 100%; float: left; background: #f5f8fa; padding: 40px 0 }
+.checkprice header article figure h1 {  font-size: 18px; color: #999ca5; font-weight: normal;}
+.checkprice header article figure h1 span {  font-size: 60px; color: #242f51; font-weight: bold;}
+.checkprice header article figure h2 {  font-size: 20px; color: #242f51; font-weight: bold;}
+.checkprice header article figure p {  font-size:16x; color:#999; font-weight:normal;}
+
+
+.checkprice article figcaption {width: 100%; float: left; padding:30px 0}
+.checkprice article figcaption ul  {list-style:none; margin: 0px; padding: 0px;}
+.checkprice article figcaption ul  li { float: none; color: #999; font-size:17px; margin: 15px 0 ;}
+.checkprice article figcaption  button  {background: #2500f9; color: #fff;  font-size: 16px; font-weight: bold; border: none; padding: 15px 25px; border-radius: 50px; margin: 10px 0  }
+.checkprice article figcaption  a   { color: #2500f9;  font-size: 16px; font-weight: normal; border: none; padding: 15px 25px; border-radius: 50px; margin: 10px 0 ; display: block;}
+
+.checkbordr { border:#f2f2f2 solid 0px;box-shadow:none;}
+/******************price end here****************/
+	
+/******************testimonial start here****************/
+
+.testimonial {width: 100%; float:left; padding: 100px 0 0 0;}
+.testimonial article {width: 100%; float:left;}
+.leftside {width: 50%; float:left;}
+.leftside img { float:right; transform:none; width: 100%; }
+.testimonial aside {width: 100%; float:right;}
+.test {width: 100%; float:left;}
+.test header {width: 100%; float:left; margin-top: 50px;}
+.test header h1 {font-size: 36px; color: #242f51; line-height: 46px; font-weight: bold;padding:  0 0 ;}
+.test header p {font-size: 16px; color: #777; line-height: 26px; padding:  35px 0;}
+.test header img {}
+.test header h2 {font-size: 20px; color: #242f51; line-height: 46px; font-weight: bold; padding:  0 0 ;}
+.test header h3 {font-size: 16px; color: #777; line-height: 26px; padding:  10px 0; font-weight: normal;}
+
+.test section {width: 100%; float:left; padding: 50px 0 0 0}
+.test section article {width: 100%; float:left;}
+.test section article  figure{width: 40%; float:left;}
+.test section article  figure img {}
+
+.test section article  figcaption {width: 60%; float:left;}
+.test section article  figcaption h1 {font-size: 18px; color: #242f51; line-height: 46px; font-weight: bold;padding:  0 0 ;}
+.test section article  figcaption p {font-size: 18px; color: #777;  padding:  0 0;}
+
+.test section aside {width: 100%; float:right; margin-top: 30px;}
+.test section aside ul  {list-style: none; margin: 0px; padding: 0px;}
+.test section aside ul li {float: left; margin: 0 10px;color:#f4f4f4;}
+.test section aside ul li a { width: 50px; height: 50px; display: block; background: url("../images/btnright.png") center center no-repeat;}
+.test section aside ul li a:hover { width: 50px; height: 50px; display: block; background: url( "../images/btnhover2.png") center center no-repeat;}
+
+.test section aside ul li a.left { width: 50px; height: 50px; display: block; background:url("../images/btnleft.png") center center no-repeat;}
+.test section aside ul li a.left:hover { width: 50px; height: 50px; display: block; background: url( "../images/btnhover1.png") center center no-repeat;}
+
+
+/******************testimonial end here****************/
+	
+/******************faq start here****************/
+.faq {width: 100%; float: left; padding: 100px 0 100px 0;}
+.faq header {width: 100%; float: left; text-align: center;}
+.faq header h1 {font-size: 36px; color: #242f51; line-height: 46px; font-weight: bold;padding:  0 0 ;}
+.faq header p {font-size: 16px; color: #777; line-height: 26px; padding:  35px 0;}
+
+
+.faq section {width: 100%; float: left; display: flex; justify-content: center; flex-direction: column; align-items: center;}
+.faq section article {width: 100%; float: left; background: #f5f7fa; padding: 10px 0 ; margin: 10px 0; display: flex ; align-items: center; }
+.faq section article figure {width: 80%; float: left; background: #f5f7fa;}
+.faq section article figure h1 {font-size: 13px; color: #242f51; line-height: 16px; font-weight: bold;padding:  0 0 0 20px ;}
+.faq section article figcaption {width: 20%; float: left; display: flex; justify-content: center; align-items: center;height: 50px}
+.faq section article figcaption a {width: 10%; float: left; width: 20px; height: 20px; background: url("../images/plus.png") center center no-repeat;}
+
+
+/******************faq end here****************/
+	
+/******************download start here****************/
+.download {width: 100%; float: left; padding-top: 100px; border-top: #f2f2f2 solid 1px;} 
+
+.download article {width:100%; float: left; padding: 0 0 100px 0; text-align: center;}
+.download article h1 {font-size: 48px; color: #242f51; line-height: 46px; font-weight: bold; padding:  0 0 ;}
+.download article p {font-size: 16px; color: #777; line-height: 26px; padding:  35px 0 37px 0;}
+.download article ul {list-style: none;}
+.download article ul li {float: none; margin-right:none;display: inline-block; }
+.download article ul li a {display: inline-block;}
+
+.download aside {width: 100%; float: left;}
+.download aside img {width: 100%; height: auto;}
+/******************download end here****************/
+	
+/******************footer start here****************/
+.bottom {width: 100%; float: left; background: #09142e; padding: 100px 0 ; }
+.bottom hgroup{width: 100%; float: left; text-align: center; }
+.bottom nav {width: 100%; float: left; text-align: center; }
+.bottom nav ul {list-style: none;}
+.bottom nav ul li {display: inline-block; margin: 50px 0;}
+.bottom nav ul li a {color:#fff!important; display: block; padding: 0 10px; display: inline-block; font-size: 16px; } 
+
+.bottom section {width: 100%; float: left; text-align: center; }
+.bottom section ul {list-style: none; margin: 0px; padding: 0px;}
+.bottom section ul li { display:inline-block; margin: 0 10px ;}
+.bottom section ul li a {width: 27px; height: 27px;display:inline-block;; background: url("../images/facebook.png") center center no-repeat;}
+.bottom section ul li a.twit {width: 27px; height: 27px;display:block; background: url( "../images/twitter.png") center center no-repeat;}
+.bottom section ul li a.hash {width: 27px; height: 27px;display:block; background: url("../images/hash.png") center center no-repeat;}
+.bottom section ul li a.insta {width: 27px; height: 27px;display:block; background: url( "../images/insta.png") center center no-repeat;}
+
+.bottom footer {width: 100%; float: left; text-align: center; }
+.bottom footer h1 {color: #3c5694; font-size: 14px; text-align: center; font-weight: normal; padding-top: 80px; }
+
+/******************footer end here****************/
+	
+	
+}
+
+@media only screen and (min-width:360px) and (max-width:640px)
+	
+{.wrap {width: 90%; margin: 0 auto;}	
+	
+/******************nav start here****************/
+
+.hederbg{width: 100%; float: left; background:url("../images/back.png") bottom center no-repeat; background-size: cover}
+.header {width: 100%; float: left; text-align: center;}
+.header hgroup {width: 100%; float: left; padding: 80px 0 40px 0;}
+.header nav {width: 100%; float: left; padding: 5% 0; margin: 0 0 0 0; text-align: center;}
+.header nav ul  {list-style: none; margin: 0px; padding: 0px;}
+.header nav ul li { float: none; display: inline-block}
+.header nav ul li a { font-family:Poppins; color:#222!important; display: inline-block; padding: 10px 10px;}
+.header aside {width: 100%; float: right; padding: 4% 0; text-align: center;}
+.header aside button { background: #2500f9; color: #fff; display: inline-block; font-size: 16px; font-weight: bold; border: none; padding: 15px 25px; border-radius: 50px; cursor:pointer; text-align: center;}
+
+
+.banner {width: 100%; float: left;} 
+.banner article {width: 100%; float: left; padding:100px  0 ; text-align: center; }
+.banner article  h1 {font-size: 18px; color: #242f51;font-weight: 600; padding-bottom: 10px}
+.banner article  h1 span {font-size: 15px; color: #222;}
+.banner article  h2 {font-size: 40px; color: #242f51; line-height: 55px; font-weight: bold; }
+.banner article  p {font-size: 19px; color: #777; line-height: 28px; padding: 15px 0 0 0;  }
+.banner article ul {list-style: none; margin: 0px; padding: 0px; width: 80%; display: flex; justify-content: center; flex-direction: column;}
+.banner article ul li {float: left; margin: 40px 0 0 0;}
+.banner article ul li a{width:100%;background: #2500f9; color: #fff; display: block; font-size: 16px; font-weight: bold; border: none; padding: 15px 25px; border-radius: 50px; cursor:pointer;}
+.banner article ul li a.watch {width:100%; color: #2500f9; display: block; font-size: 16px;  padding: 15px 25px; background:none; font-weight: normal}
+
+.banner aside {width: 100%; float: right; padding-bottom: 100px; }
+.banner aside img { width: 100%; }
+
+/******************nav end here****************/
+	
+/******************clinte logo start here****************/
+
+.clint header ul li {  display:inline-block; margin:  20px 20px;}
+
+/******************clinte logo end here****************/
+	
+/******************app start here****************/
+.awesome {width: 100%; float: left; padding:  0 0 140px 0;}
+.awesome article{width:100%; float: left;}
+.awesome article img {width: 100%; float: left;}
+.awesome aside {width: 100%; float:  right;}
+.awesome aside header  {width: 100%; float: left; text-align: center;}
+.awesome aside header  h1 {font-size: 36px; color: #242f51; line-height: 46px; font-weight: bold;}
+.awesome aside header  p {font-size: 16px; color: #777; line-height: 28px; padding: 24px 0 70px 0;  }
+
+.awesome aside section   {width:100%; float:left; margin: 0 0 30px 0;}
+.awesome aside section figure  {width: 100%; float: left;   margin: 0px; text-align: center;}
+.awesome aside section figure img { padding: 15px 0 0 0;}
+.awesome aside section figcaption  {width: 100%; float: left; text-align: center;}
+.awesome aside section figcaption h1  { font-size: 20px; color: #f55767;}
+.awesome aside section figcaption h1.type  { font-size: 20px; color: #2563ff;}
+.awesome aside section figcaption h1.pen  { font-size: 20px; color: #40975f;}
+.awesome aside section figcaption p  { font-size: 16px; color: #777; line-height: 26px; padding:10px 0 0 0;}
+
+
+/******************app end here****************/	
+	
+/******************smart start here****************/
+.smart {width: 100%; float:left; padding:  0 0 150px 0; border-bottom: #f4f4f4 solid 1px;} 
+.smart header {width: 100%; float:left; } 
+
+.smart header article {width: 100%; float:left; border: none; text-align: center;} 
+.smart header article h1  {font-size: 40px; color: #242f51; line-height: 50px; font-weight: bold; padding: 0 0 0 0;} 
+ 
+.smart aside {width: 100%; float:right; text-align: center;}      
+ 
+
+.smart section {width: 100%; float:left; padding: 0 0 0 0; } 
+.smart section figure {width:100%; float:left; margin: 0px; text-align: center; padding-bottom: 50px} 
+.smart section figure h1 { } 
+.smart section figure h2 {font-size: 20px; color: #f55767;padding:  28px 0 10px 0;  } 
+.smart section figure h2.net {font-size: 20px; color: #2563ff;padding:  28px 0 10px 0;  } 
+.smart section figure h2.reward {font-size: 20px; color: #40975f;padding:  28px 0 10px 0;  } 
+.smart section figure p {font-size: 16px; color: #777; line-height: 26px; padding: 0 0 0 0;   }
+
+.smart footer {width: 100%; float:left; } 
+
+.foot { width: 100%; float: left;}
+.foot article { width: 100%; float: left; text-align: center;}
+.foot article img { width: 100%; float: left; }
+
+.foot aside { width: 100%; float: right;text-align: center;}
+.foot aside h1 {font-size: 36px; color: #242f51; line-height: 46px; font-weight: bold; padding: 120px 0 0 0;}
+.foot aside p {font-size: 16px; color: #777; line-height: 28px; padding: 24px 0 50px 0;  }
+.foot aside a {background: #2500f9; color: #fff;  font-size: 16px; font-weight: bold; border: none; padding: 15px 25px; border-radius: 50px;   }
+
+/******************smart end here****************/	
+/******************choose start here****************/
+.choose {width: 100%; float: left; padding: 100px 0;}
+.choose header  h1 {font-size: 36px; color: #242f51; line-height: 46px; font-weight: bold; padding: 0 0; ;}
+.choose header p {font-size: 16px; color: #777; line-height: 26px; padding:  35px 0;   }
+.choose section article {width: 100%; float: left; text-align: center; padding: 45px 0}
+.choose section article p {font-size: 16px; color: #777; line-height: 26px; padding: 0 0;   }
+/******************choose end here****************/
+	
+/******************features start here****************/
+
+.features {width: 100%; float: left; padding: 0 0 150px 0;}
+
+.features article {width: 100%; float: left;}
+.features article  header {width: 100%; float: left; text-align: center}
+.features article  header h1 {font-size: 36px; color: #242f51; line-height: 46px; font-weight: bold;padding:  0 0 0 0; }
+.features article  header p{font-size: 16px; color: #777; line-height: 28px; padding: 24px 0 30px 0;  }
+.features article  section {width: 100%; float: left; }
+.features article  section figure {width: 100%; float: left; padding: 40px 0; text-align: center;}
+.features article  section figure  h1 { }
+.features article  section figure  h2 {font-size: 20px; color: #273043; padding:  28px 0 10px 0;  }
+.features article  section figure  p {font-size: 16px; color: #777; line-height: 26px; padding: 0 0 0 0;   }
+
+.features aside {width: 100%; float: left;}
+.features aside h1 img { transform:none; width: 100%; height: auto;}
+
+
+/******************features end here****************/
+/******************price start here****************/
+.price {width:100%; float: left; }
+.price header {width:100%; float: left; text-align: center;}
+.price header h1 {font-size: 36px; color: #242f51; line-height: 46px; font-weight: bold;padding:  0 0 ;}
+.price header p {font-size: 16px; color: #777; line-height: 26px; padding:  35px 0;}
+ 
+.price article {width:100%; float: left; justify-content: center; display: flex;}
+.price article aside {width:auto; float: left; text-align: center;border-radius: 50px; border: #999 solid 1px; padding: 3px;}
+.price article aside ul  { list-style: none; margin: 0px; padding: 0px;}
+.price article aside ul li  { display: inline-block}
+.price article aside ul li a  { color: #999; background: none;  padding: 20px 30px;display: inline-block; border-radius: 50px;    }
+.price article aside ul li a:hover  { color: #fff; background: #2500f9;    }
+.price article aside ul li a.active  { color: #fff; background: #2500f9;    }
+
+.price section {width:100%; float: left; }
+
+.checkprice {width: 100%; float: left; display: block; padding:  50px 0 100px 0; border-bottom: #f2f2f2 solid 1px;}
+.checkprice header {width: 100%; float: left; display: block; padding:  50px 0 0 0; }
+
+.checkprice header article {width: 100%; float: left; text-align: center; box-shadow:0 0 40px 0 #f2f2f2; margin: 0 0 50px 0;}
+.checkprice header article figure {width: 100%; float: left; background: #f5f8fa; padding: 40px 0 }
+.checkprice header article figure h1 {  font-size: 18px; color: #999ca5; font-weight: normal;}
+.checkprice header article figure h1 span {  font-size: 60px; color: #242f51; font-weight: bold;}
+.checkprice header article figure h2 {  font-size: 20px; color: #242f51; font-weight: bold;}
+.checkprice header article figure p {  font-size:16x; color:#999; font-weight:normal;}
+
+
+.checkprice article figcaption {width: 100%; float: left; padding:30px 0}
+.checkprice article figcaption ul  {list-style:none; margin: 0px; padding: 0px;}
+.checkprice article figcaption ul  li { float: none; color: #999; font-size:17px; margin: 15px 0 ;}
+.checkprice article figcaption  button  {background: #2500f9; color: #fff;  font-size: 16px; font-weight: bold; border: none; padding: 15px 25px; border-radius: 50px; margin: 10px 0  }
+.checkprice article figcaption  a   { color: #2500f9;  font-size: 16px; font-weight: normal; border: none; padding: 15px 25px; border-radius: 50px; margin: 10px 0 ; display: block;}
+
+.checkbordr { border:#f2f2f2 solid 0px;box-shadow:none;}
+/******************price end here****************/
+	
+/******************testimonial start here****************/
+
+.testimonial {width: 100%; float:left; padding: 100px 0 0 0;}
+.testimonial article {width: 100%; float:left;}
+.leftside {width: 50%; float:left;}
+.leftside img { float:right; transform:none; width: 100%; }
+.testimonial aside {width: 100%; float:right;}
+.test {width: 100%; float:left;}
+.test header {width: 100%; float:left; margin-top: 50px;}
+.test header h1 {font-size: 36px; color: #242f51; line-height: 46px; font-weight: bold;padding:  0 0 ;}
+.test header p {font-size: 16px; color: #777; line-height: 26px; padding:  35px 0;}
+.test header img {}
+.test header h2 {font-size: 20px; color: #242f51; line-height: 46px; font-weight: bold; padding:  0 0 ;}
+.test header h3 {font-size: 16px; color: #777; line-height: 26px; padding:  10px 0; font-weight: normal;}
+
+.test section {width: 100%; float:left; padding: 50px 0 0 0}
+.test section article {width: 100%; float:left;}
+.test section article  figure{width: 40%; float:left;}
+.test section article  figure img {}
+
+.test section article  figcaption {width: 60%; float:left;}
+.test section article  figcaption h1 {font-size: 18px; color: #242f51; line-height: 46px; font-weight: bold;padding:  0 0 ;}
+.test section article  figcaption p {font-size: 18px; color: #777;  padding:  0 0;}
+
+.test section aside {width: 100%; float:right; margin-top: 30px;}
+.test section aside ul  {list-style: none; margin: 0px; padding: 0px;}
+.test section aside ul li {float: left; margin: 0 10px;color:#f4f4f4;}
+.test section aside ul li a { width: 50px; height: 50px; display: block; background: url("../images/btnright.png") center center no-repeat;}
+.test section aside ul li a:hover { width: 50px; height: 50px; display: block; background: url( "../images/btnhover2.png") center center no-repeat;}
+
+.test section aside ul li a.left { width: 50px; height: 50px; display: block; background:url("../images/btnleft.png") center center no-repeat;}
+.test section aside ul li a.left:hover { width: 50px; height: 50px; display: block; background: url( "../images/btnhover1.png") center center no-repeat;}
+
+
+/******************testimonial end here****************/
+	
+/******************faq start here****************/
+.faq {width: 100%; float: left; padding: 100px 0 100px 0;}
+.faq header {width: 100%; float: left; text-align: center;}
+.faq header h1 {font-size: 36px; color: #242f51; line-height: 46px; font-weight: bold;padding:  0 0 ;}
+.faq header p {font-size: 16px; color: #777; line-height: 26px; padding:  35px 0;}
+
+
+.faq section {width: 100%; float: left; display: flex; justify-content: center; flex-direction: column; align-items: center;}
+.faq section article {width: 100%; float: left; background: #f5f7fa; padding: 10px 0 ; margin: 10px 0; display: flex ; align-items: center; }
+.faq section article figure {width: 80%; float: left; background: #f5f7fa;}
+.faq section article figure h1 {font-size: 13px; color: #242f51; line-height: 16px; font-weight: bold;padding:  0 0 0 20px ;}
+.faq section article figcaption {width: 20%; float: left; display: flex; justify-content: center; align-items: center;height: 50px}
+.faq section article figcaption a {width: 10%; float: left; width: 20px; height: 20px; background: url("../images/plus.png") center center no-repeat;}
+
+
+/******************faq end here****************/
+	
+/******************download start here****************/
+.download {width: 100%; float: left; padding-top: 100px; border-top: #f2f2f2 solid 1px;} 
+
+.download article {width:100%; float: left; padding: 0 0 100px 0; text-align: center;}
+.download article h1 {font-size: 48px; color: #242f51; line-height: 46px; font-weight: bold; padding:  0 0 ;}
+.download article p {font-size: 16px; color: #777; line-height: 26px; padding:  35px 0 37px 0;}
+.download article ul {list-style: none;}
+.download article ul li {float: none; margin-right:none;display: inline-block; }
+.download article ul li a {display: inline-block;}
+
+.download aside {width: 100%; float: left;}
+.download aside img {width: 100%; height: auto;}
+/******************download end here****************/
+	
+/******************footer start here****************/
+.bottom {width: 100%; float: left; background: #09142e; padding: 100px 0 ; }
+.bottom hgroup{width: 100%; float: left; text-align: center; }
+.bottom nav {width: 100%; float: left; text-align: center; }
+.bottom nav ul {list-style: none;}
+.bottom nav ul li {display: inline-block; margin: 50px 0;}
+.bottom nav ul li a {color:#fff!important; display: block; padding: 0 10px; display: inline-block; font-size: 16px; } 
+
+.bottom section {width: 100%; float: left; text-align: center; }
+.bottom section ul {list-style: none; margin: 0px; padding: 0px;}
+.bottom section ul li { display:inline-block; margin: 0 10px ;}
+.bottom section ul li a {width: 27px; height: 27px;display:inline-block;; background: url("../images/facebook.png") center center no-repeat;}
+.bottom section ul li a.twit {width: 27px; height: 27px;display:block; background: url( "../images/twitter.png") center center no-repeat;}
+.bottom section ul li a.hash {width: 27px; height: 27px;display:block; background: url("../images/hash.png") center center no-repeat;}
+.bottom section ul li a.insta {width: 27px; height: 27px;display:block; background: url( "../images/insta.png") center center no-repeat;}
+
+.bottom footer {width: 100%; float: left; text-align: center; }
+.bottom footer h1 {color: #3c5694; font-size: 14px; text-align: center; font-weight: normal; padding-top: 80px; }
+
+/******************footer end here****************/
+	
+	
+	
+	
+}
+
+@media only screen and (min-width:781px) and (max-width:1024px)
+	
+{
+	.wrap {width: 90%; margin: 0 auto;}
+	
+	/******************nav start here****************/
+
+.hederbg{width: 100%; float: left; background:url("../images/back.png") bottom center no-repeat; background-size: cover}
+
+
+.header {width: 100%; float: left; }
+.header hgroup {width: 20%; float: left; padding: 4% 0;}
+.header nav {width: 50%; float: left; padding: 5% 0; margin: 0 0 0 10%;  }
+.header nav ul  {list-style: none; margin: 0px; padding: 0px;}
+.header nav ul li { float: left;}
+.header nav ul li a { font-family:Poppins; color:#222!important; display: block; padding: 0 10px;}
+.header aside {width: 20%; float: right; padding: 4% 0;}
+.header aside button { background: #2500f9; color: #fff; display: block; font-size: 16px; font-weight: bold; border: none; padding: 15px 25px; border-radius: 50px; cursor:pointer;}
+
+
+.banner {width: 100%; float: left;} 
+.banner article {width: 45%; float: left; padding:200px  0 ; }
+.banner article  h1 {font-size: 18px; color: #242f51;font-weight: 600; padding-bottom: 10px}
+.banner article  h1 span {font-size: 18px; color: #222;}
+.banner article  h2 {font-size: 60px; color: #242f51; line-height: 75px; font-weight: bold; }
+.banner article  p {font-size: 19px; color: #777; line-height: 28px; padding: 15px 0 0 0;  }
+.banner article ul {list-style: none; margin: 0px; padding: 0px;}
+.banner article ul li {float: left; margin: 40px 0 0 0;}
+.banner article ul li a {background: #2500f9; color: #fff; display: block; font-size: 16px; font-weight: bold; border: none; padding: 15px 25px; border-radius: 50px; cursor:pointer;}
+.banner article ul li a.watch { color: #2500f9; display: block; font-size: 16px;  padding: 15px 25px; background:none; font-weight: normal}
+
+.banner aside {width: 45%; float: right; }
+.banner aside img { float: right; }
+
+/******************nav end here****************/
+
+
+/******************clinte logo start here****************/
+.clint {width: 100%; float: left; padding: 115px 0;  }
+.clint header {width: 100%; float: left; text-align: center;}
+.clint header h1 {  color: #242f51; font-size: 16px; font-weight: normal; padding: 0 0 40px 0;}
+.clint header ul {  list-style: none; margin: 0px; padding: 0px;}
+.clint header ul li {  display:inline-block; margin:  0 20px;}
+.clint header ul li  a { display:inline-block; }
+/******************clinte logo end here****************/
+
+
+/******************app start here****************/
+.awesome {width: 100%; float: left; padding:  100px 0 140px 0;}
+.awesome article{width: 50%; float: left;}
+.awesome article img {width: 100%; float: left;}
+.awesome aside {width: 45%; float:  right;}
+.awesome aside header  {width: 100%; float: left;}
+.awesome aside header  h1 {font-size: 36px; color: #242f51; line-height: 46px; font-weight: bold;}
+.awesome aside header  p {font-size: 16px; color: #777; line-height: 28px; padding: 24px 0 70px 0;  }
+
+.awesome aside section   {width:100%; float:left; margin: 0 0 30px 0;}
+.awesome aside section figure  {width: 25%; float: left;   margin: 0px;}
+.awesome aside section figure img { padding: 15px 0 0 0;}
+.awesome aside section figcaption  {width: 60%; float: left;}
+.awesome aside section figcaption h1  { font-size: 20px; color: #f55767;}
+.awesome aside section figcaption h1.type  { font-size: 20px; color: #2563ff;}
+.awesome aside section figcaption h1.pen  { font-size: 20px; color: #40975f;}
+.awesome aside section figcaption p  { font-size: 16px; color: #777; line-height: 26px; padding:10px 0 0 0;}
+
+
+/******************app end here****************/
+
+
+
+/******************smart start here****************/
+.smart {width: 100%; float:left; padding:  0 0 150px 0; border-bottom: #f4f4f4 solid 1px;} 
+.smart header {width: 100%; float:left; padding-bottom: 100px;} 
+
+.smart header article {width: 50%; float:left;  border-right: #999 solid 1px;} 
+.smart header article h1  {font-size: 40px; color: #242f51; line-height: 50px; font-weight: bold; padding: 0 20% 0 0;} 
+ 
+ .smart aside {width: 40%; float:right;  }      
+ .smart aside  p {font-size: 16px; color: #777; line-height: 26px; padding: 36px 0 36px 0;  } 
+
+
+.smart section {width: 100%; float:left; padding: 0 0 100px 0; } 
+.smart section figure {width:33.3%; float:left; margin: 0px;} 
+.smart section figure h1 { } 
+.smart section figure h2 {font-size: 20px; color: #f55767;padding:  28px 0 10px 0;  } 
+.smart section figure h2.net {font-size: 20px; color: #2563ff;padding:  28px 0 10px 0;  } 
+.smart section figure h2.reward {font-size: 20px; color: #40975f;padding:  28px 0 10px 0;  } 
+.smart section figure p {font-size: 16px; color: #777; line-height: 26px; padding: 0 22% 0 0;   }
+
+.smart footer {width: 100%; float:left; } 
+
+.foot { width: 100%; float: left;}
+.foot article { width: 50%; float: left;}
+.foot article img { width: 100%; float: left; }
+
+.foot aside { width: 45%; float: right;}
+.foot aside h1 {font-size: 36px; color: #242f51; line-height: 46px; font-weight: bold; padding: 120px 20% 0 0;}
+.foot aside p {font-size: 16px; color: #777; line-height: 28px; padding: 24px 15% 50px 0;  }
+.foot aside a {background: #2500f9; color: #fff;  font-size: 16px; font-weight: bold; border: none; padding: 15px 25px; border-radius: 50px;   }
+
+/******************smart end here****************/
+
+
+
+/******************choose start here****************/
+.choose {width: 100%; float: left; padding: 150px 0;}
+.choose header  {width: 100%; float: left; text-align: center}
+.choose header  h1 {font-size: 36px; color: #242f51; line-height: 46px; font-weight: bold; padding: 0 30%; ;}
+.choose header p {font-size: 16px; color: #777; line-height: 26px; padding:  35px 25%;   }
+
+.choose section  {width: 100%; float: left; }
+.choose section article {width: 33.3%; float: left; text-align: center; padding: 45px 0}
+
+.choose section article h1 { }
+.choose section article h2 {font-size: 20px; color: #273043;padding:  28px 0 10px 0;  }
+.choose section article p {font-size: 16px; color: #777; line-height: 26px; padding: 0 15%;   }
+/******************choose end here****************/
+
+
+
+/******************features start here****************/
+
+.features {width: 100%; float: left; padding: 0 0 150px 0;}
+.features article {width: 60%; float: left;}
+.features article  header {width: 100%; float: left; }
+.features article  header h1 {font-size: 36px; color: #242f51; line-height: 46px; font-weight: bold;padding:  0 45% 0 0; }
+.features article  header p{font-size: 16px; color: #777; line-height: 28px; padding: 24px 35% 30px 0;  }
+.features article  section {width: 100%; float: left; }
+.features article  section figure {width: 50%; float: left; padding: 40px 0; }
+.features article  section figure  h1 { }
+.features article  section figure  h2 {font-size: 20px; color: #273043; padding:  28px 0 10px 0;  }
+.features article  section figure  p {font-size: 16px; color: #777; line-height: 26px; padding: 0 15% 0 0;   }
+
+.features aside {width: 40%; float: left;}
+.features aside h1 { width: 100%;}
+.features aside h1 img { transform:translateX(-30px)}
+
+
+/******************features end here****************/
+
+
+
+/******************price start here****************/
+.price {width:100%; float: left; }
+.price header {width:100%; float: left; text-align: center;}
+.price header h1 {font-size: 36px; color: #242f51; line-height: 46px; font-weight: bold;padding:  0 25% ;}
+.price header p {font-size: 16px; color: #777; line-height: 26px; padding:  35px 23%;}
+ 
+.price article {width:100%; float: left; justify-content: center; display: flex;}
+.price article aside {width:auto; float: left; text-align: center;border-radius: 50px; border: #999 solid 1px; padding: 3px;}
+.price article aside ul  { list-style: none; margin: 0px; padding: 0px;}
+.price article aside ul li  { display: inline-block}
+.price article aside ul li a  { color: #999; background: none;  padding: 20px 30px;display: inline-block; border-radius: 50px;    }
+.price article aside ul li a:hover  { color: #fff; background: #2500f9;    }
+.price article aside ul li a.active  { color: #fff; background: #2500f9;    }
+
+.price section {width:100%; float: left; }
+
+.checkprice {width: 100%; float: left; display: block; padding:  50px 0 150px 0; border-bottom: #f2f2f2 solid 1px;}
+.checkprice header {width: 100%; float: left; display: block; padding:  50px 0 0 0; display:flex ; justify-content:center}
+
+.checkprice header article {width: 30%; float: left; text-align: center; box-shadow:0 0 40px 0 #f2f2f2; margin: 0 5%;}
+.checkprice header article figure {width: 100%; float: left; background: #f5f8fa; padding: 40px 0}
+.checkprice header article figure h1 {  font-size: 18px; color: #999ca5; font-weight: normal;}
+.checkprice header article figure h1 span {  font-size: 60px; color: #242f51; font-weight: bold;}
+.checkprice header article figure h2 {  font-size: 20px; color: #242f51; font-weight: bold;}
+.checkprice header article figure p {  font-size:16x; color:#999; font-weight:normal;}
+
+
+.checkprice article figcaption {width: 100%; float: left; padding:30px 0}
+.checkprice article figcaption ul  {list-style:none; margin: 0px; padding: 0px;}
+.checkprice article figcaption ul  li { float: none; color: #999; font-size:17px; margin: 15px 0 ;}
+.checkprice article figcaption  button  {background: #2500f9; color: #fff;  font-size: 16px; font-weight: bold; border: none; padding: 15px 25px; border-radius: 50px; margin: 10px 0  }
+.checkprice article figcaption  a   { color: #2500f9;  font-size: 16px; font-weight: normal; border: none; padding: 15px 25px; border-radius: 50px; margin: 10px 0 ; display: block;}
+
+.checkbordr { border:#f2f2f2 solid 4px;box-shadow:none;}
+/******************price end here****************/
+
+
+
+/******************testimonial start here****************/
+
+.testimonial {width: 100%; float:left; padding: 150px 0;}
+.testimonial article {width: 50%; float:left;}
+.leftside {width: 50%; float:left;}
+.leftside img { float:right; transform: translateX(-100px)}
+.testimonial aside {width: 45%; float:right;}
+.test {width: 100%; float:left;}
+.test header {width: 100%; float:left;}
+.test header h1 {font-size: 36px; color: #242f51; line-height: 46px; font-weight: bold;padding:  0 0 ;}
+.test header p {font-size: 16px; color: #777; line-height: 26px; padding:  35px 0;}
+.test header img {}
+.test header h2 {font-size: 20px; color: #242f51; line-height: 46px; font-weight: bold; padding:  0 0 ;}
+.test header h3 {font-size: 16px; color: #777; line-height: 26px; padding:  10px 0; font-weight: normal;}
+
+.test section {width: 100%; float:left; padding: 50px 0 0 0}
+.test section article {width: 60%; float:left;}
+.test section article  figure{width: 30%; float:left;}
+.test section article  figure img { width: 100%; }
+
+.test section article  figcaption {width: 60%; float:left;}
+.test section article  figcaption h1 {font-size: 14px; color: #242f51; line-height: 46px; font-weight: bold;padding:  0 0 ;}
+.test section article  figcaption p {font-size: 14px; color: #777;  padding:  0 0;}
+
+.test section aside {width: 40%; float:right;}
+.test section aside ul  {list-style: none; margin: 0px; padding: 0px;}
+.test section aside ul li {float: left; margin: 0 10px;color:#f4f4f4;}
+.test section aside ul li a { width: 50px; height: 50px; display: block; background: url("../images/btnright.png") center center no-repeat;}
+.test section aside ul li a:hover { width: 50px; height: 50px; display: block; background: url( "../images/btnhover2.png") center center no-repeat;}
+
+.test section aside ul li a.left { width: 50px; height: 50px; display: block; background:url("../images/btnleft.png") center center no-repeat;}
+.test section aside ul li a.left:hover { width: 50px; height: 50px; display: block; background: url( "../images/btnhover1.png") center center no-repeat;}
+
+
+/******************testimonial end here****************/
+
+
+
+/******************faq start here****************/
+.faq {width: 100%; float: left; padding: 0 0 150px 0;}
+.faq header {width: 100%; float: left; text-align: center;}
+.faq header h1 {font-size: 36px; color: #242f51; line-height: 46px; font-weight: bold;padding:  0 25% ;}
+.faq header p {font-size: 16px; color: #777; line-height: 26px; padding:  35px 23%;}
+
+
+.faq section {width: 100%; float: left; display: flex; justify-content: center; flex-direction: column; align-items: center;}
+.faq section article {width: 70%; float: left; background: #f5f7fa; padding: 10px 0 ; margin: 10px 0;}
+.faq section article figure {width: 90%; float: left; background: #f5f7fa;}
+.faq section article figure h1 {font-size: 20px; color: #242f51; line-height: 46px; font-weight: bold;padding:  0 0 0 40px ;}
+.faq section article figcaption {width: 10%; float: left; display: flex; justify-content: center; align-items: center;height: 50px}
+.faq section article figcaption a {width: 10%; float: left; width: 20px; height: 20px; background: url("../images/plus.png") center center no-repeat;}
+
+
+/******************faq end here****************/
+
+
+/******************download start here****************/
+.download {width: 100%; float: left; padding-top: 150px; border-top: #f2f2f2 solid 1px;} 
+
+.download article {width:55%; float: left; padding: 0 0 150px 0;}
+.download article h1 {font-size: 48px; color: #242f51; line-height: 46px; font-weight: bold; padding:  0 0 ;}
+.download article p {font-size: 16px; color: #777; line-height: 26px; padding:  35px 0 37px 0;}
+.download article ul {list-style: none;}
+.download article ul li {float: left; margin-right: 10px;}
+.download article ul li a {display: block;}
+
+.download aside {width: 45%; float: left;}
+.download aside img {transform: translateX(-140px)}
+/******************download end here****************/
+
+
+/******************footer start here****************/
+.bottom {width: 100%; float: left; background: #09142e; padding: 150px 0 ; }
+.bottom hgroup{width: 100%; float: left; text-align: center; }
+.bottom nav {width: 100%; float: left; text-align: center; }
+.bottom nav ul {list-style: none;}
+.bottom nav ul li {display: inline-block; margin: 50px 0;}
+.bottom nav ul li a {color:#fff!important; display: block; padding: 0 10px; display: inline-block; font-size: 16px; } 
+
+.bottom section {width: 100%; float: left; text-align: center; }
+.bottom section ul {list-style: none; margin: 0px; padding: 0px;}
+.bottom section ul li { display:inline-block; margin: 0 10px ;}
+.bottom section ul li a {width: 27px; height: 27px;display:inline-block;; background: url("../images/facebook.png") center center no-repeat;}
+.bottom section ul li a.twit {width: 27px; height: 27px;display:block; background: url( "../images/twitter.png") center center no-repeat;}
+.bottom section ul li a.hash {width: 27px; height: 27px;display:block; background: url("../images/hash.png") center center no-repeat;}
+.bottom section ul li a.insta {width: 27px; height: 27px;display:block; background: url( "../images/insta.png") center center no-repeat;}
+
+.bottom footer {width: 100%; float: left; text-align: center; }
+.bottom footer h1 {color: #3c5694; font-size: 14px; text-align: center; font-weight: normal; padding-top: 80px; }
+
+/******************footer end here****************/
+/******************media query  star here****************/
+	
+	
+}
+	
+	
+
+
+
+
+
+
+
+/******************media query end here****************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************html end here****************/
+
+
+
+
